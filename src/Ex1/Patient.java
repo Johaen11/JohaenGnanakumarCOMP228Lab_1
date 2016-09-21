@@ -5,7 +5,7 @@ package Ex1;
 
 /**
  * @author Johaen
- *Version: 0.0.1
+ *
  */
 public class Patient {
 	
@@ -130,9 +130,12 @@ public void setPostalCode(String postalCode) {
 
 public String getPatientInfo()
 {
-	
-	return String.format("PatientID: %s%nFirstName: %s%nLastName: %s%nAddress: %s%City %s%nProvince: %s%nPostalCode", this.patientId, this.firstName, this.lastName, this.address, this.city, this.province, this.postalCode);
+	String msg = String.format("PatientID: %s%nFirst Name: %s%nLastName: %s%nAddress: %s%nCity %s%nProvince: %s%nPostalCode: %s%n",getPatientId(), getFirstName(), getLastName(), getAddress(), getCity(), getProvince(), getPostalCode());
 
+//	String msg = String.format("PatientID: %s%nFirst"
+//			+ "Name: %s%nLastName: %s%nAddress: "
+//			+ "%s%City %s%nProvince: %s%nPostalCode", getFirstName(), getLastName(), getAddress(), getCity(), getProvince(), getPostalCode());
+		return msg;
 }
 
 }
