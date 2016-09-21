@@ -5,7 +5,7 @@ package Ex2;
 
 /**
  * @author Johaen
- *
+ *dgagadg
  */
 public class BankAccount {
 
