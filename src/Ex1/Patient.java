@@ -5,7 +5,7 @@ package Ex1;
 
 /**
  * @author Johaen
- *
+ *Version: 0.0.1
  */
 public class Patient {
 	
